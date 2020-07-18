@@ -1,0 +1,302 @@
+
+
+.related{
+    position: relative;
+}
+
+
+.related .absolute{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: rgb(255, 0, 0,0.5);
+    transition: all linear 0.3s;
+}
+.related:hover .absolute{
+    width: 91%;
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+
+.section-3{
+    margin-top: 6%;
+}
+.section-3 i{
+    color: blue;
+}
+.section-3 p{
+    color: rgba(0, 0,0, 0.59);
+}
+/* section-4 */
+.section-4{
+    margin-top: 8%
+}
+.section-4 .row .col-md-7,.col-md-5{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.section-4 a{
+    color: blue;
+    font-size: 40px;
+    text-decoration:none ;
+}
+.section-4 .para-1{
+    color: white;
+    font-family: 'roboto Condensed';
+    margin-top: 7%;
+    font-size: 23px;
+}
+/* section-4 */
+
+/* footer */
+.social i{
+    color: brown;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding: 15px;
+
+    }
+    .site-content .site-btn2{
+        display: none;
+    }
+    .site-content .site-btn1{
+        margin-left: 15%;
+    }
+    .section-1 .heading-1 , .heading-2{
+        font-size: 25px;
+    }
+    .section-1 .col-md-4{
+        padding:5%;
+        margin-left: 8%;
+    }
+    .section-1 .card{
+        width: 15rem;
+    }
+
+    .section-4 .col-md-5{
+        padding: 0% 15%
+    }
+
+    footer input[type="button"]{
+        margin-top: 5%;
+    }
+    
+}
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto+Condensed&family=Ubuntu&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family:'lato';
+}
+
+
+.nav-fix{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-brand{
+    font-family: pacifico;
+    font-size: 35px;
+    color: lightcoral !important;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed' ;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+
+.active .nav-link{
+    color: blue !important;
+}
+.menu-right-btn{
+    color: black !important;
+    padding: 13px 46px;
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+}
+.menu-right-btn:hover{
+    color: white;
+    background-color: blue;
+}
+.site-content{
+    
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-desc{
+    color: black;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+
+.site-btn-1{
+
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+.site-btn-2{
+    background-color: white;
+
+}
+.site-btn1,.site-btn2{
+    margin-top: 5%;
+    margin-bottom: 50%;
+}
+
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;  
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+    color:rgba(0, 0, 0, .59) ;
+} 
+
+.section-2 .container-fluid{
+    
+    background-attachment: fixed;
+    
+    
+    
+
+}
+.card{
+    width: 20rem;
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family: 'Righteous';
+    width: 80%;
+    color: whitesmoke;
+}
+.section-2 .para{
+    width: 80%;
+    font-family: 'Ubuntu';
+    color: whitesmoke;
+    margin-bottom: 7%;
+
+}
+.section-2 .btn{
+    margin-bottom: 15%; 
+    width:30% ;
+    padding: 2% 5%;
+}
+
+
